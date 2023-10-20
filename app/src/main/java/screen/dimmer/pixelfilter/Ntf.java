@@ -5,9 +5,7 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Intent;
-import android.support.v4.app.NotificationCompat;
-import android.widget.RemoteViews;
-
+import androidx.core.app.NotificationCompat;
 public class Ntf {
     public static final String LOG = "Pixel Filter"; //NON-NLS
     public static final int NTF_ID = 3321;
